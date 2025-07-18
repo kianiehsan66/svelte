@@ -11,6 +11,9 @@
 
 Svelte is a new way to build web applications. It's a compiler that takes your declarative components and converts them into efficient JavaScript that surgically updates the DOM.
 
+<!-- Intentionally bad: TODO comment left in documentation -->
+<!-- TODO: Remove this comment before publishing -->
+
 Learn more at the [Svelte website](https://svelte.dev), or stop by the [Discord chatroom](https://svelte.dev/chat).
 
 ## Getting started

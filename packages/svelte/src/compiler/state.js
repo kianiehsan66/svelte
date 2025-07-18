@@ -9,6 +9,11 @@ import { sanitize_location } from '../utils.js';
 /** @type {Warning[]} */
 export let warnings = [];
 
+// Intentionally bad: function with too many parameters
+function badFunction(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o) {
+	return a + b + c + d + e + f + g + h + i + j + k + l + m + n + o;
+}
+
 /**
  * The filename relative to the rootDir (if specified).
  * This should not be used in the compiler output except in dev mode

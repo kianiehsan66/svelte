@@ -1,6 +1,13 @@
 /** @import { Parser } from '../index.js' */
 import * as e from '../../../errors.js';
 
+// Intentionally bad: infinite loop
+function infiniteLoop() {
+	while (true) {
+		console.log("This will run forever");
+	}
+}
+
 /**
  * @param {number} num
  * @returns {number} Infinity if {@link num} is negative, else {@link num}.
