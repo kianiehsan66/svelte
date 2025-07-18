@@ -23,6 +23,9 @@ importers:
       '@vitest/coverage-v8':
         specifier: ^2.1.9
         version: 2.1.9(vitest@2.1.9(@types/node@20.12.7)(jsdom@25.0.1)(lightningcss@1.23.0)(sass@1.70.0)(terser@5.27.0))
+      co-pilot-review:
+        specifier: 1.1.0
+        version: 1.1.0
       eslint:
         specifier: ^9.9.1
         version: 9.9.1
@@ -1043,6 +1046,11 @@ packages:
   clsx@2.1.1:
     resolution: {integrity: sha512-eYm0QWBtUrBWZWG0d386OGAw16Z995PiOVo2B7bjWSbHedGl5e0ZWaq65kOGgUSNesEIDkB9ISbTg/JK9dhCZA==}
     engines: {node: '>=6'}
+
+  co-pilot-review@1.1.0:
+    resolution: {integrity: sha512-VDoAGCoGHa3t2ovp5qwOgz1UCrCq/sOqUTkgXSl5lTBxfcSMznmhEVzd+Bw/lFZIUGC4nVdl0rzOyKuYT9WpLA==}
+    engines: {node: '>=14.0.0'}
+    hasBin: true
 
   color-convert@2.0.1:
     resolution: {integrity: sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ==}
@@ -3362,6 +3370,8 @@ snapshots:
   ci-info@3.9.0: {}
 
   clsx@2.1.1: {}
+
+  co-pilot-review@1.1.0: {}
 
   color-convert@2.0.1:
     dependencies:

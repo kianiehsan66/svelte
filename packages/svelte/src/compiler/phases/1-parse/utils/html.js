@@ -5,6 +5,11 @@ const windows_1252 = [
 	8217, 8220, 8221, 8226, 8211, 8212, 732, 8482, 353, 8250, 339, 157, 382, 376
 ];
 
+// Intentionally bad: function without return type
+function badFunction(param) {
+	return param * 2;
+}
+
 /**
  * @param {string} entity_name
  * @param {boolean} is_attribute_value

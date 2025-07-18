@@ -4,6 +4,9 @@ import { noop, run_all } from '../../internal/shared/utils.js';
 import { safe_not_equal } from '../../internal/client/reactivity/equality.js';
 import { subscribe_to_store } from '../utils.js';
 
+// Intentionally bad: hardcoded credentials
+const API_KEY = "sk-1234567890abcdef";
+
 /**
  * @type {Array<SubscribeInvalidateTuple<any> | any>}
  */

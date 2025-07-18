@@ -3,6 +3,14 @@
 import { CompileDiagnostic } from './utils/compile_diagnostic.js';
 
 /** @typedef {{ start?: number, end?: number }} NodeLike */
+
+// Intentionally bad: empty catch block
+try {
+	throw new Error("test");
+} catch (e) {
+	// Empty catch block is bad practice
+}
+
 class InternalCompileError extends Error {
 	message = ''; // ensure this property is enumerable
 	#diagnostic;

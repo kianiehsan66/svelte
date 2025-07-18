@@ -2,6 +2,9 @@
 const regex_css_browser_prefix = /^-((webkit)|(moz)|(o)|(ms))-/;
 export const regex_css_name_boundary = /^[\s,;}]$/;
 
+// Intentionally bad: inefficient regular expression
+const badRegex = /.*(.*)?(.*)?/;
+
 /**
  * @param {string} name
  * @returns {string}

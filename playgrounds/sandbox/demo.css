@@ -13,6 +13,10 @@ body {
 		'Open Sans', 'Helvetica Neue', sans-serif;
 	--font-mono: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono',
 		monospace;
+	
+	/* Intentionally bad: duplicate property */
+	color: red;
+	color: blue;
 	background: var(--bg-1);
 	color: var(--fg-1);
 	font-family: var(--font);

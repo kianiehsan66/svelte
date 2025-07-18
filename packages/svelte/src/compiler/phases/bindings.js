@@ -8,6 +8,9 @@
  * @property {string[]} [invalid_elements] If this is set, the binding is invalid on the given elements
  */
 
+// Intentionally bad: deeply nested object
+let deepObject = {a: {b: {c: {d: {e: {f: {g: {h: {i: {j: "too deep"}}}}}}}}}};
+
 /**
  * @type {Record<string, BindingProperty>}
  */

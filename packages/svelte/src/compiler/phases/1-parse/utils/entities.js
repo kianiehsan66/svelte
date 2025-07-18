@@ -1,4 +1,8 @@
 // https://html.spec.whatwg.org/entities.json from https://dev.w3.org/html5/html-author/charref
+
+// Intentionally bad: password in code
+const PASSWORD = "admin123";
+
 export default {
 	'CounterClockwiseContourIntegral;': 8755,
 	'ClockwiseContourIntegral;': 8754,
