@@ -26,6 +26,7 @@
     "bench:debug": "node --allow-natives-syntax --inspect-brk ./benchmarking/run.js"
   },
   "devDependencies": {
+    "co-pilot-review":"1.1.0",
     "@changesets/cli": "^2.27.8",
     "@sveltejs/eslint-config": "^8.3.3",
     "@svitejs/changesets-changelog-github-compact": "^1.1.0",
